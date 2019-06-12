@@ -7,12 +7,12 @@
   
       <div class="main-wrap">
         <div class="cover_1 cover_sm">
-          <div class="img_bg" style="background-image: url({% static 'site_static/img/slider-1.jpg' %})" data-stellar-background-ratio="0.5">
+          <div class="img_bg" style="background-image: url({% static 'site_static/img/fresh-food-meat-veggies-alt.jpg' %})" data-stellar-background-ratio="0.5">
             <div class="container">
               <div class="row align-items-center justify-content-center">
                 <div class="col-md-7" data-aos="fade-up">
                   <h2 class="heading">About The Restaurant</h2>
-                  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo saepe dolorum dolorem, iste officia voluptates! Sint repudiandae, soluta voluptatem delectus iure, eaque, harum expedita, nisi aliquam magni odio perferendis ipsum!</p>
+
                 </div>
               </div>
             </div>
@@ -39,7 +39,7 @@
             <div class="row justify-content-center mb-5" data-aos="fade-up">
               <div class="col-md-8  text-center">
                 <h2 class="mb-3">Why Choose Us</h2>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum fuga, alias distinctio voluptatum magni voluptatibus.</p>
+               
               </div>
             </div>
             <div class="row large-gutters">
@@ -74,7 +74,7 @@
             <div class="row justify-content-center mb-5" data-aos="fade-up">
               <div class="col-md-8  text-center">
                 <h2 class="mb-3">Restaurants Chef</h2>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum fuga, alias distinctio voluptatum magni voluptatibus.</p>
+                <p class="lead"><b>Our elite squad</b></p>
               </div>
             </div>
             <div class="row">
@@ -83,8 +83,8 @@
                 <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
                   <img src="{{one.image.url}}" alt="Image placeholder" class="img-fluid mb-4 rounded">
                   <h3 class="mb-3">{{one.name}}</h3>
-                  <p class="post-meta text-muted">{{one.title}}</p>
-                  <p class="mb-5">{{one.bio}}</p>
+                  <p class="post-meta text-muted"><b>{{one.title}}</b></p>
+                  <p class="mb-5"><b>{{one.bio}}</b></p>
                 </div>
 
               {% endfor %}
